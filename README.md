@@ -1,5 +1,5 @@
 <img width="2880" height="1718" alt="image" src="https://github.com/user-attachments/assets/79829e56-10a6-4675-929e-39390d89b80d" /># Next.js-Docker-Nginx
-### 1) Поставил сервер 
+### 1) Поставил сервер ( лучше 20-30 g ssd, 4 cpu и 8 Ram )
 #### -  curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
 #### -  sudo GITLAB_ROOT_PASSWORD="<пароль>" EXTERNAL_URL="https://<домен>" apt-get install gitlab-ce
 ### 2) сделал ci/cd 
