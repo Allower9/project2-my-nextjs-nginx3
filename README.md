@@ -1,4 +1,4 @@
-# Next.js-Docker-Nginx
+<img width="2880" height="1718" alt="image" src="https://github.com/user-attachments/assets/79829e56-10a6-4675-929e-39390d89b80d" /># Next.js-Docker-Nginx
 ##### 1) Поставил сервер 
 ##### -  curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
 ##### -  sudo GITLAB_ROOT_PASSWORD="<пароль>" EXTERNAL_URL="https://<домен>" apt-get install gitlab-ce
@@ -78,6 +78,7 @@ deploy:
 ##### тк ip адреса не статические (имбуля) - то нужно поменять 
 ###### 1) поменять в nginx.conf ip
 ###### 2) поменять в backende в app.js
+
 ```
 // Конфиг подключения к вашей БД
 const pool = new Pool({
@@ -132,3 +133,12 @@ docker build -t backend . && docker run -d \
 ###### 3) также развернуть все через k8s 
 ###### 4) сделать хорошую безопасноть ( разными способами)
 ###### 5) скрипты для упрощение добавить 
+###### 6) добавить ci/cd для backend Project2 
+
+###### просто фото
+<img width="2880" height="1718" alt="image" src="https://github.com/user-attachments/assets/1911ccf5-617e-494e-935b-09cacde417a0" />
+
+###### счастливое число )
+<img width="2292" height="230" alt="image" src="https://github.com/user-attachments/assets/250c89ba-be7a-40bb-b4ba-499d32f7477e" />
+
+
