@@ -135,6 +135,7 @@ docker build -t backend . && docker run -d \
 #### 4) сделать хорошую безопасноть ( разными способами)
 #### 5) скрипты для упрощение добавить 
 #### 6) добавить ci/cd для backend Project2 
+#### 7) сделать нормально nginx ( типо не только nginx.conf и все в одной,  а nginx.conf + /etc/nginx/conf.d/<имя>.conf
 
 
 
