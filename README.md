@@ -136,8 +136,7 @@ docker build -t backend . && docker run -d \
 #### 5) скрипты для упрощение добавить 
 #### 6) добавить ci/cd для backend Project2 
 
-### просто фото
-<img width="2880" height="1718" alt="image" src="https://github.com/user-attachments/assets/1911ccf5-617e-494e-935b-09cacde417a0" />
+
 
 ### счастливое число )
 <img width="2292" height="230" alt="image" src="https://github.com/user-attachments/assets/250c89ba-be7a-40bb-b4ba-499d32f7477e" />
