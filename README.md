@@ -96,7 +96,8 @@ docker exec -it db-server_postgres_1 sh -c "echo 'host all all 158.160.173.87/32
 docker exec -it db-server_postgres_1 sh -c "echo \"listen_addresses = '*'\" >> /var/lib/postgresql/data/postgresql.conf"
 ```
 ### 4) домен allower.ru - ip 
-
+### 5) меняем 1 пункт теперь только в gitlab тк там собирается образ , а на проде докер файла нету (
+### 6) также поменять $SSH_HOST в переменных
 
 
 
