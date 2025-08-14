@@ -70,7 +70,7 @@ deploy:
 <img width="2818" height="468" alt="image" src="https://github.com/user-attachments/assets/813f9250-0f07-4782-b320-b495174ad9d3" />
 
 
-### Инфракструктура  - 1 сервер nginx + frontend лежал до ci/cd  ( сейчас тупо пулим из docker-compose образ ) в gitlab все
+### Инфракструктура  - 1 сервер nginx + frontend лежал до ci/cd  ( сейчас тупо пулим из docker-compose образ ) в gitlab все, nginx работает так( COPY --from=builder /build /usr/share/nginx/html )
 ####                  - 2  сервер backend ( добавить для него тоже ci/cd) - также распологается в gitlab
 ####                  - 3 сервер db просто бд 
 ####                  - 4 сервер сам gitlab server и он же ranner в данном случае юзал shell как executor
@@ -130,17 +130,17 @@ docker build -t backend . && docker run -d \
 
 
 ### Разивитие проектов
-#### 1) Добавление системы мониторинга в обоих 
+#### 1) Добавление системы мониторинга в обоих  (1/2)
 #### 2) Добавить в TU + бд + backend 
 #### 3) также развернуть все через k8s 
-#### 4) сделать хорошую безопасноть ( разными способами)
+#### 4) сделать хорошую безопасноть ( разными способами) 
 #### 5) скрипты для упрощение добавить 
-#### 6) добавить ci/cd для backend Project2 
-#### 7) сделать нормально nginx ( типо не только nginx.conf и все в одной,  а nginx.conf + /etc/nginx/conf.d/<имя>.conf
+#### 6) добавить ci/cd для backend Project2 + 
+#### 7) сделать нормально nginx ( типо не только nginx.conf и все в одной,  а nginx.conf + /etc/nginx/conf.d/<имя>.conf )
 
 
 
-### счастливое число )
+### счастливое число 39 )
 <img width="2292" height="230" alt="image" src="https://github.com/user-attachments/assets/250c89ba-be7a-40bb-b4ba-499d32f7477e" />
 
 
