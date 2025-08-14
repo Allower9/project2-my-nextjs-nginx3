@@ -6,7 +6,7 @@ stages:
 variables:
   DOCKER_IMAGE: allower99/project2-nginx-frontend:latest
   SSH_USER: user1
-  SSH_HOST: 158.160.129.11
+  SSH_HOST: 84.201.168.118
   SSH_PATH: /home/user1/my-nextjs-nginx3
 
 build_app:
